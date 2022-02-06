@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <!-- ------font awesome ----------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <--------Box icons -------------> 
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <!-- link to css ------------  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ------------------navbar------------- -->
+    <header>
+        <a href="#" class="logo">Taste</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- ----------dark mode -----------  -->
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <!-- --------------------home section ---------------  -->
+   <section class="home" id="home">
+       <div class="home-text">
+           <h1>Food Taste</h1>
+           <h2>The tasty food of <br> your choice</h2>
+           <a href="#" class="btn">View Menu</a>
+       </div>
+       <div class="home-img">
+           <img src="./images/Bacon Tomato Deluxe(Burgers) - McDonald's.png" alt="">
+       </div>
+   </section>
+
+   <!-- -------------About--------------- -->
+   <section class="about" id="about">
+       <div class="about-img">
+           <img src="./images/McDonald's - Brasil.jpeg">
+       </div>
+       <div class="about-text">
+           <span>About Us</span>
+           <h2>We make good and <br> tasty food </h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi quam consequuntur nobis labore suscipit fuga eaque aperiam esse doloribus, illo sunt, praesentium, voluptatum pariatur maxime quas cupiditate. Id, dolorem!</p>
+           <a href="#" class="btn">Learm More</a>
+       </div>
+   </section>
+
+   <!-- ------------Menu------------ -->
+   <section class="menu" id="menu">
+       <div class="heading">
+           <span>Menu</span>
+           <h2>Tasty Menu of the week</h2>
+       </div>
+       <div class="menu-container">
+           <!-- -----Box 1----------- -->
+           <div class="box">
+              <div class="box-img">
+                  <img src="./images/Bacon and cheese burger.jpeg" alt="">
+              </div> 
+              <h2>Aloo Tikki burger</h2>
+              <h3>Tasty Food</h3>
+              <span>Rs 150</span>
+              <i class="bx bx-cart-alt"></i>
+           </div>
+           <!-- ---------Box 2-------------- -->
+           <div class="box">
+            <div class="box-img">
+                <img src="./images/chicken burger.jpeg" alt="">
+            </div> 
+            <h2>Chicken Burger</h2>
+            <h3>Tasty Food</h3>
+            <span>Rs 250</span>
+            <i class="bx bx-cart-alt"></i>
+         </div>
+         <!-- --------Box 3------------------- -->
+         <div class="box">
+            <div class="box-img">
+                <img src="./images/cheese burger.jpeg" alt="">
+            </div> 
+            <h2>Cheese Burger</h2>
+            <h3>Tasty Food</h3>
+            <span>Rs 200</span>
+            <i class="bx bx-cart-alt"></i>
+         </div>
+       </div>
+   </section>
+
+   <!-- -------------Services ---------------  -->
+   <section class="services" id="services">
+       <div class="heading">
+           <span>Services</span>
+           <h2>We provide best food services</h2>
+       </div>
+
+       <div class="services-container">
+           <!-- ---------box 1 -------------  -->
+           <div class="s-box">
+               <img src="./images/online-order.jpg" alt="">
+               <h3>Your Order</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  omnis exercitationem sapiente quia aliquam asperiores sit odio.</p>
+           </div>
+           <!-- ----------box 2 -------------  -->
+           <div class="s-box">
+            <img class="shipping-img" src="./images/shipping.jpg" alt="">
+            <h3>Shipping</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  omnis exercitationem sapiente quia aliquam asperiores sit odio.</p>
+        </div>
+        <!-- --------------box 3  ----------  -->
+        <div class="s-box">
+            <img src="./images/delivered.jpg" alt="">
+            <h3>Delivered</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  omnis exercitationem sapiente quia aliquam asperiores sit odio.</p>
+        </div>
+       </div>
+   </section>
+
+   <section class="connect">
+       <div class="connect-text">
+           <span>Let's Talk</span>
+           <h2>Connect now</h2>
+       </div>
+       <a href="#" class="btn">Contact Us</a>
+   </section>
+     
+<!-- ------------Contact--------------- -->
+   <section class="contact" id="contact">
+       <div class="contact-box">
+           <h3>Food Taste</h3>
+           <span>Connect With Us</span>
+           <div class="social">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+           </div>
+       </div>
+       <div class="contact-box">
+        <h3>Menu Links</h3>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </div>
+    <div class="contact-box">
+        <h3>Quick Links</h3>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Privacy-Policy">Privacy Policy</a></li>
+        <li><a href="#Disclaimer">Disclaimer</a></li>
+        <li><a href="#Terms-Of-Use">Terms Of Use</a></li>
+    </div>
+
+    <div class="contact-box address">
+        <h3>Contact</h3>
+        <i class="fas fa-map-marker-alt"> <span>New Market , Bhopal, India</span></i>
+        <i class="fas fa-phone-square-alt"> <span>+91 393039393</span></i>
+        <i class="fas fa-envelope">  <span>Example@email.com</span></i>
+    </div>
+   </section>
+
+   <!-- ------------Copyright--------------- -->
+
+   <div class="copyright">
+       <p>&#169; Anzar Ali, All Right Reserved.</p>
+   </div>
+    <!-- ------link to javascript------ -->
+    <script src="script.js"></script>
+</body>
+</html>
